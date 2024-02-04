@@ -1,0 +1,40 @@
+.center-avatar {
+    margin: auto;
+}
+.validation-message {
+    color: #e0952c;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+a {
+    background-color: transparent;
+    color: var(--ion-color-primary, #ffbcbc);
+}
+
+ion-input {
+    --color: #FFFFFF; /* Blanco */
+}
+
+p.ion-text-center {
+    color: #FFFFFF; 
+}
+
+p.ion-text-center a {
+    color: #e0952c; 
+}
+
+.warm-theme {
+    --ion-background-color: #cd0404; /* Tomate */
+    --ion-color-primary: #e12020; /* Luz de salmón */
+    --ion-color-secondary: #FFD700; /* Oro */
+    --ion-color-tertiary: #98FB98; /* Pasto pálido */
+    --ion-color-success: #FFA500; /* Naranja */
+    --ion-color-warning: #FF4500; /* Rojo naranja */
+    --ion-color-danger: #8B4513; /* Marrón de montura */
+    --ion-color-dark: #F4A460; /* Arena marrón */
+    --ion-color-medium: #FFEFD5; /* Batido de papaya */
+    --ion-color-light: #FFE4B5; /* Mocasín */
+    --ion-toolbar-background: #FFA07A; /* Luz de salmón */
+    --ion-toolbar-color: #FFFFFF; /* Blanco */
+}

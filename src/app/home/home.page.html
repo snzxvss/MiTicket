@@ -1,0 +1,33 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="end">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="warm-theme">
+    <swiper-container
+    [pagination]="true"
+    [slidesPerView]="1"
+    >
+        <swiper-slide *ngFor="let slide of event_list">
+            <ion-card>
+                <img [src]="slide.image">
+                <ion-card-header>
+                    <ion-card-title>{{slide.name}}</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+                    <p>{{slide.description}}</p> <!-- Descripción del evento -->
+                    <p>{{slide.event_date}}</p> <!-- Fecha del evento -->
+                    <p>{{slide.location}}</p> <!-- Ubicación del evento -->
+                    <p>{{slide.address}}</p> <!-- Dirección del evento -->
+                    <p>{{slide.city}}</p> <!-- Ciudad del evento -->
+                </ion-card-content>
+            </ion-card>
+        </swiper-slide>
+    </swiper-container>
+</ion-content>
+
+
+<!-- 2.Crear un boton en intro para omitir y regresar al home -->
